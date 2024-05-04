@@ -1,0 +1,26 @@
+#Requires AutoHotkey v2.0
+f13::Send("{Raw}=")
+f14::Send("{Raw}@")
+f15::Send("{Raw}#")
+f16::Send("{Raw}$")
+f17::Send("{Raw}%")
+f18::Send("{Raw}&")
+f19::Send("{Raw}?")
+f20::Send("{Raw}<")
+f21::Send("{Raw}|")
+f22::Send("{Raw}>")
+f23::Send("{Raw}:")
+f24::Send("{Raw};")
+
+NumpadIns::Send('{Raw}"')
+NumpadEnd::Send("{Raw}'")
+NumpadDown::Send("{Raw}[")
+NumpadPgDn::Send("{Raw}]")
+
+NumpadLeft::Send('{Raw}``')
+NumpadClear::Send("{Raw}.")
+NumpadRight::Send("{Raw},")
+NumpadHome::Send("{Raw}~")
+NumpadUp::Send("{Raw}{")
+NumpadPgUp::Send("{Raw}}")
+
